@@ -1,0 +1,140 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #6a87c7;
+color: #000000;
+}
+
+.container {
+max-width: 900px;
+margin: 0 auto;
+padding: 1rem;
+}
+
+header {
+background-color: #222;
+color: rgb(96, 122, 151);
+padding: 1rem 0;
+text-align: center;
+}
+
+.tagline {
+font-style: italic;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+padding: 0;
+background-color: #36467c;
+margin: 0;
+}
+
+nav a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+background-color: #1c285c;
+}
+
+#quote-section {
+margin: 2em 0;
+padding: 1em;
+background-color: #80a8dd;
+border-left: 4px solid #1c285c;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#quote-author {
+text-align: right;
+font-weight: bold;
+}
+
+#slideshow {
+width: auto;
+max-height: 400px;
+height: auto;
+display: block;
+margin: 1em auto;
+border-radius: 10px;
+object-fit: contain;
+}
+
+.contact-box {
+border: 2px solid #444;
+background-color: #f0f0f0;
+padding: 1.5rem;
+margin: 2rem 0;
+border-radius: 8px;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-box h2 {
+margin-top: 0;
+}
+
+.contact-box a {
+font-weight: bold;
+color: #1c29d6;
+text-decoration: none;
+}
+
+.contact-box a:hover {
+text-decoration: underline;
+}
+
+.skills-list{
+border: 2px solid #444;
+background-color: #f0f0f0;
+padding: 1.5rem;
+margin: 2rem 0;
+border-radius: 8px;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.skills-list h2 {
+margin-top: 0;
+}
+
+.skills-list a {
+font-weight: bold;
+color: #1c29d6;
+text-decoration: none;
+}
+
+
+
+.project-description {
+border: 2px solid #444;
+background-color: #abc0e7;
+padding: 1.5rem;
+margin: 2rem 0;
+border-radius: 8px;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-description h2 {
+margin-top: 0;
+}
+
+.project-description a {
+font-weight: bold;
+color: #1c29d6;
+text-decoration: none;
+}
+
+.project-thumb {
+width: auto;
+max-height: 400px;
+height: auto;
+display: block;
+margin: 1em auto 1em 0; 
+border-radius: 10px;
+object-fit: contain;
+}
